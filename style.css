@@ -14,10 +14,10 @@
     
     
     background-color: aliceblue;
-    display: inline-block;
     border: 10px solid paleturquoise;
     padding: 20px;
-    
+    align-items: center;
+    text-align: center;
 }
 .japan h1 {
     color: darkblue;
@@ -58,10 +58,9 @@
     
     
     background-color: aliceblue;
-    display: inline-block;
     border: 10px solid rgb(43, 173, 91);
     padding: 20px;
-    
+    text-align: center;
 }
 .switz h1 {
     color: rgb(30, 82, 9);
@@ -103,9 +102,9 @@
     
     
     background-color: aliceblue;
-    display: inline-block;
     border: 10px solid rgb(229, 126, 208);
     padding: 20px;
+    text-align: center;
     
 }
 .thai h1 {
