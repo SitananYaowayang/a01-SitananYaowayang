@@ -10,30 +10,44 @@
     text-align: center;
     font-size: 16px;
 }
-.japan{
+
+.header{
+    color: rgb(65, 16, 111);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+body{background-color: rgb(255, 252, 239);}
+
+.package{
+    display: flex;
+    gap: 10px;
     
+}
+
+#japan , #switz , #thai{
     
-    background-color: aliceblue;
-    border: 10px solid paleturquoise;
     padding: 20px;
+    border-radius: 15px; 
     align-items: center;
     text-align: center;
+    display: block;
 }
-.japan h1 {
-    color: darkblue;
+#japan h1 , #switz h1 , #thai h1{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     text-align: center;
     font-weight: 800;
     padding: 15px;
 }
-.japan img{
+
+#japan img , #switz img , #thai img{
     display: block;
     margin: 0 auto;
-    
 }
-.japan p{
-    color: rgb(140, 140, 183);
+
+#japan p , #switz p , #thai p{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 15px;
     text-align: center;
@@ -41,103 +55,46 @@
     font-weight: 600;
 }
 
-.japan #booking1{
+#booking1 , #booking2 ,#booking3 {
     display: inline-block;
-    
-}
-.japan #booking2{
-    display: inline-block;
-    
-}
-.japan #booking3{
-    display: inline-block;
-    
 }
 
-.switz{
-    
-    
+
+
+
+#japan{
+    background-color: aliceblue;
+    border: 10px solid paleturquoise;
+}
+#japan h1 {
+    color: darkblue;
+}
+#japan p{
+    color: rgb(140, 140, 183);
+}
+
+
+#switz h1 {
+    color: rgb(30, 82, 9);
+}
+#switz p{
+    color: rgb(91, 154, 101);
+}
+#switz{
     background-color: aliceblue;
     border: 10px solid rgb(43, 173, 91);
-    padding: 20px;
-    text-align: center;
-}
-.switz h1 {
-    color: rgb(30, 82, 9);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 800;
-    padding: 15px;
-}
-.switz img{
-    display: block;
-    margin: 0 auto;
-    
-}
-.switz p{
-    color: rgb(91, 154, 101);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 15px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.switz #booking1{
-    display: inline-block;
-    
-}
-.switz #booking2{
-    display: inline-block;
-    
-}
-.switz #booking3{
-    display: inline-block;
-    
 }
 
 
-.thai{
-    
-    
+
+#thai{
     background-color: aliceblue;
     border: 10px solid rgb(229, 126, 208);
-    padding: 20px;
-    text-align: center;
-    
 }
-.thai h1 {
+#thai h1 {
     color: rgb(127, 6, 24);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 800;
-    padding: 15px;
 }
-.thai img{
-    display: block;
-    margin: 0 auto;
-    
-}
-.thai p{
+#thai p{
     color: rgb(231, 66, 102);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 15px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 600;
 }
 
-.thai #booking1{
-    display: inline-block;
-    
-}
-.thai #booking2{
-    display: inline-block;
-    
-}
-.thai #booking3{
-    display: inline-block;
-    
-}
